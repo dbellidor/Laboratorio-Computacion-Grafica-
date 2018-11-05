@@ -80,6 +80,8 @@ vaZ= stepX * thisCamera->camIZ + stepY * thisCamera->camJZ;
 // Set V & A
 thisCamera->camViewX=thisCamera->camViewX+ vaX;
 thisCamera->camViewY=thisCamera->camViewY+ vaY;
+
+
 thisCamera->camViewZ=thisCamera->camViewZ+ vaZ;
 thisCamera->camAtX=thisCamera->camAtX+vaX;
 thisCamera->camAtY=thisCamera->camAtY+vaY;
@@ -109,3 +111,9 @@ void Pan(int x, int y){
   glutPostRedisplay();
 }
 ```
+
+### Capturas
+
+![alt text](https://github.com/dbellidor/Laboratorio-Computacion-Grafica-/blob/master/Laboratorio%204%20-%20Fase%202/f3_1.png)
+![alt text](https://github.com/dbellidor/Laboratorio-Computacion-Grafica-/blob/master/Laboratorio%204%20-%20Fase%202/f4_1.png)
+![alt text](https://github.com/dbellidor/Laboratorio-Computacion-Grafica-/blob/master/Laboratorio%204%20-%20Fase%202/f4_2.png)
